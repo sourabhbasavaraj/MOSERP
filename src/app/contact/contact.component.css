@@ -1,0 +1,61 @@
+@media screen and (max-width:768px){
+    .table, .regcor, .branches1{
+        display:flex; 
+        flex-direction:column;
+        /* justify-content: space-around; */
+     }
+     .address{
+         padding-left:15px
+     }
+   }
+    
+    @media screen and (min-width: 768px){
+        .table{
+            display:flex;        
+            flex-direction: row;
+            justify-content: space-around;  
+            padding-top: 20px;
+            background-color: rgb(230, 139, 123);
+
+                
+        }
+        .infor{
+            padding-top: 190px;
+        }
+        
+        .regcor, .branches{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 10px 10px;
+
+        }
+
+        .regoff{
+            margin-top: 90px;
+        }
+   
+        .newd{
+            padding-right: 50px;
+           
+        }
+        .branches1{
+            padding: 0px 20px;
+        }
+       
+   
+      }
+
+.form{
+    width: 500px;
+    /* height: 500px; */
+    padding:50px 30px;
+    
+    
+}
+.infor{
+    float: right;
+    /* padding-top: 100px; */
+    padding-left: 20px;
+}
+

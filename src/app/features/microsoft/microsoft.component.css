@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    .image{
+        background-image: url("../../../assets/Microsoft ERP BG2.png");
+        height: 100px;
+        width:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover; 
+        filter: blur(2px);
+        opacity:0px;
+        left:0;
+        top: 0;    
+    }
+    
+    .intro{
+        font-family: 'Poppins', sans-serif;
+        position:relative;
+        text-align: center;
+        color: #67b664;
+        font-weight: bolder;
+    }    
+}
+
+
+@media screen and (min-width: 768px){
+
+.image{
+    background-image: url("../../../assets/Microsoft ERP BG2.png");
+    height: 500px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+}
+
+.intro{
+    font-family: 'Poppins';
+    position:relative;
+    transform: translate(0%,-800%);
+    text-align: center;
+    color: #67b664;
+
+}
+
+}

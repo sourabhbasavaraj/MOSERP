@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script>
+    const navToggle = document.querySelector(".nav-toggle");
+        const links = document.querySelector(".links");
+
+        navToggle.addEventListener("click", function (){
+            links.classList.toggle("show-links");
+        })
+  </script>
+</head>
+
+
+
+<body>
+  <!-- ---Navbar--- -->
+
+  <router-outlet>
+      
+   
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="../assets/Navbarlogo.jpg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+              <li >
+                <a [routerLink]= "['/home']" ><li>Home</a>
+              </li>
+              <li >
+                <a [routerLink]= "['/features']" >Services</a>
+                </li> 
+              <li>
+                <a [routerLink]= "['/about']" >  About Us </a>
+              </li>
+              <li>
+                <a [routerLink]= "['/contact']" > Contact Us </a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+  <!-- ---Endnavbar--- -->
+
+</router-outlet>
+
+
+<!-- FOOTER -->
+  <footer>
+  <div class="footer">
+    <table>
+      <tr>
+        <td>
+          
+          <div class="findUs">
+            <p>Find us here</p>
+             <td class="linkedin">
+                <div>
+                  <a href="https://www.linkedin.com/company/moserp-technologies-india-pvt-ltd/about/" target="blank"><i class="fab fa-2x fa-linkedin"></i></a>
+                </div>
+             </td>
+             <td class="fb">
+                <div >            
+                      <a href="https://www.facebook.com/Moserptechnologies" target="blank"><i class="fab fa-2x fa-facebook-square"></i></a>
+                </div>
+             </td>
+             <td class="twitter">
+                <div>
+                  <a href="https://twitter.com/MOSERPTECH" target="blank"><i class="fab fa-2x fa-twitter-square"></i></a>
+                </div>
+             </td>
+          </div>
+        </td>
+
+        
+         <td>
+                <div class="workspace" >
+                  <div class="move">
+                    Our WorkSpace:
+                    <div>
+                      No.113, 1st Main Road, 
+                     <div> Doctors Layout(Kasturi nagar),</div> 
+                    <div>B.Channasandra, Bangalore-560043</div> 
+                    </div>
+                  </div>
+                   
+                  
+               </div>
+         </td>
+      </tr>
+      <br>
+      
+      <tr>
+        <th>
+          <div class="copyright">
+            MOSERP Technologies Pvt Ltd 
+           <div>All rights reserved</div> 
+          </div>
+        </th>
+      </tr>
+    </table>
+  </div>
+</footer>
+
+</body>
+
+</html>

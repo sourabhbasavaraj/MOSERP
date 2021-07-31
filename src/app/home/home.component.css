@@ -1,0 +1,105 @@
+@media screen and (max-width:468px){
+    .showcase{
+        display:flex-box; 
+        /* flex-direction:row; */
+        justify-content: space-between;
+        padding-left: 10px;
+     }
+
+    .leftintro{
+      display: flex; 
+      flex-direction: column;
+      justify-content: left;
+      /* flex-wrap:wrap-reverse;   */
+      padding-left: 14px;
+      padding-bottom: 200px;
+      font-family: 'Poppins', sans-serif;;
+      position:absolute;
+      transform: translate( 0,-80%);
+      width: 100%;
+      height: 90%;
+      text-align: left;
+      color: #67b664;
+      /* font-size: 50px; */
+    }
+    
+    
+    }
+    
+
+    /* For Laptop Screen */
+    @media screen and (min-width: 768px){
+         .leftintro{
+            display:flex;        
+            flex-direction: column;
+            justify-content: space-between;  
+            text-align: center;      
+        }
+        .leftintro{
+              padding: 20px 800px 500px 200px;
+              font-weight: bolder;
+              font-family: 'Poppins', sans-serif;;
+              position:absolute;
+              transform: translate( 0%,-80%);
+              width: 100%;
+              height: 90%;
+              text-align: left;
+              color: #67b664;
+
+        }
+        .showcase{
+          display:flex; 
+          flex-direction: row;   
+          justify-content:flex-end;
+          padding: 10px 15px;
+          align-items: stretch;
+          align-items: center;
+}
+      .container-grid2{
+       width: 35%;
+      }
+      .container-grid1{
+        width: 35%;
+        padding-right: 10px;
+      }
+      .container-grid3{
+        width: 35%;
+      }
+      }
+    
+/* .flex1 {
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+.container4 {
+    float: left;
+    margin-left: 100px;
+}
+
+.container5{
+    float: right;
+    box-sizing: border-box;
+} */
+
+    .decoration{
+        background-image: url("../../assets/BgIMG1.jpg");
+        height: 650px;
+        width:100%;
+        background-position:inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        filter:blur(4px);
+        /* filter: grayscale(2px); */
+        opacity:0px;
+      }
+
+  .notblur-first{
+    font-size: 40px;
+  }
+  
+  .notblur{
+    font-weight: bolder;
+  }
