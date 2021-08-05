@@ -263,7 +263,7 @@ nav {
 }
 
 .findUs{
-  padding: 0px 50px 10px 300px;
+  padding: 0px 50px 10px 220px;
   color: #222;
   font-weight:bold;
 
@@ -290,5 +290,5 @@ nav {
 
 .copyright{
   text-align: center;
-  transform: translate(110%,0%);
+  transform: translate(120%,0%);
 } 

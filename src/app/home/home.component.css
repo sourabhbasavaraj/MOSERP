@@ -44,7 +44,8 @@
               width: 100%;
               height: 90%;
               text-align: left;
-              color: #67b664;
+              /* color: #67b664; */
+              color: rgb(225, 231, 141);
 
         }
         .showcase{
@@ -66,25 +67,9 @@
         width: 35%;
       }
       }
-    
-/* .flex1 {
-    display: flex;
-    justify-content: space-between;
-  
-   
-}
-.container4 {
-    float: left;
-    margin-left: 100px;
-}
-
-.container5{
-    float: right;
-    box-sizing: border-box;
-} */
 
     .decoration{
-        background-image: url("../../assets/BgIMG1.jpg");
+        /* background-image: url("../../assets/BgIMG1.jpg"); */
         height: 650px;
         width:100%;
         background-position:inherit;
@@ -92,7 +77,6 @@
         background-size: cover;
         -webkit-background-size: cover;
         filter:blur(4px);
-        /* filter: grayscale(2px); */
         opacity:0px;
       }
 
@@ -103,3 +87,38 @@
   .notblur{
     font-weight: bolder;
   }
+
+  /* The styling for the parallax from code pen */
+  
+  /* middle heading styling */
+  .mainHeading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .heading2{
+   font-size: 25px;
+  }
+
+  /* parllax styling */
+  .parallax{
+    background: url('https://images.pexels.com/photos/2609107/pexels-photo-2609107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+}
+.parallax-1{
+    background: url('https://images.pexels.com/photos/1835712/pexels-photo-1835712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: #67b664;
+}
+.parallax-2{
+    background: url('https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: #67b664;
+}
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+

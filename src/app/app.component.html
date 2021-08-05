@@ -10,14 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <script>
-    const navToggle = document.querySelector(".nav-toggle");
-        const links = document.querySelector(".links");
 
-        navToggle.addEventListener("click", function (){
-            links.classList.toggle("show-links");
-        })
-  </script>
 </head>
 
 
@@ -30,14 +23,14 @@
    
     <nav>
       <div class="nav-center">
-        <!-- nav header -->
+      
         <div class="nav-header">
           <img src="../assets/Navbarlogo.jpg" class="logo" alt="logo" />
           <button class="nav-toggle">
             <i class="fas fa-bars"></i>
           </button>
         </div>
-        <!-- links -->
+     
         <ul class="links">
               <li >
                 <a [routerLink]= "['/home']" ><li>Home</a>
@@ -57,7 +50,6 @@
   <!-- ---Endnavbar--- -->
 
 </router-outlet>
-
 
 <!-- FOOTER -->
   <footer>

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FeaturesComponent } from './features/features.component';
+import { ITMSComponent } from './features/itms/itms.component';
 import { MicrosoftComponent } from './features/microsoft/microsoft.component';
 import { SAPComponent } from './features/sap/sap.component';
 import { HomeComponent } from './home/home.component';
@@ -28,7 +29,8 @@ const routes: Routes = [
     children:[
       {path:'', component:FeaturesComponent},
       {path:'microsoft', component:MicrosoftComponent},
-      {path:'SAP', component: SAPComponent}
+      {path:'SAP', component: SAPComponent},
+      {path:'itms', component : ITMSComponent}
     ]
   }
 
